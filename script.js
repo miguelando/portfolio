@@ -88,12 +88,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    const tecnicasCards = document.querySelectorAll('.tecnica-card');
+    const tecnicasCards = document.querySelectorAll('.tecnica-item');
     tecnicasCards.forEach((card, index) => {
         card.addEventListener('mouseenter', function() {
             tecnicasCards.forEach((c, i) => {
                 if (i !== index) {
-                    c.style.opacity = '0.5';
+                    c.style.opacity = '0.6';
                     c.style.transform = 'scale(0.98)';
                 }
             });
