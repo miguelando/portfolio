@@ -989,6 +989,10 @@ body {
         height: 280px;
     }
     
+    .sobre-photo-2 {
+        border: none;
+    }
+    
     .video-item video {
         height: 250px;
     }
@@ -1015,5 +1019,9 @@ body {
     
     .video-item video {
         height: 220px;
+    }
+    
+    .sobre-photo-2 {
+        border: none;
     }
 }
